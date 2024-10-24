@@ -1,0 +1,45 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "prettier": "prettier  --write cypress/**/*.js",
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zh55/ByndyusoftTest.git"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/zh55/ByndyusoftTest",
+  "keywords": [
+    "cypress",
+    "ui",
+    "e2e",
+    "integration"
+  ],
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "cy-verify-downloads": "^0.2.3",
+    "cypress": "^13.10.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-pipe": "^2.0.0",
+    "cypress-terminal-report": "^6.0.1",
+    "dotenv": "^16.4.3",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "^7.24.1",
+    "core-js": "^3.33.0",
+    "cypress-plugin-steps": "^1.1.1",
+    "cypress-qase-reporter": "^1.4.3",
+    "cypress-real-events": "^1.11.0",
+    "eslint": "8.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.x <=23.x.x",
+    "npm": ">=9.6.0"
+  }
+}
